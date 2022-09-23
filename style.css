@@ -66,16 +66,28 @@
   /*15% dostepnej szerokosci*/
 }
 
+/* footer */
+footer,
+footer a {
+  color: grey;
+}
+
+footer img {
+  height: 1rem;
+  margin: 1ren 0;
+}
+
+footer a:hover,
+footer p,
+footer h3 {
+  color: black;
+}
+
 @media all and (max-width: 767px) {
   .client {
     width: 50%;
   }
 }
-
-
-
-
-
 
 /*============= SECTION =============*/
 
