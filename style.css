@@ -57,8 +57,20 @@
   font-size: 0.9rem;
 }
 
+/* clients */
 
+.client {
+  width: 80%;
+  border-radius: 50%;
+  min-width: 15vw;
+  /*15% dostepnej szerokosci*/
+}
 
+@media all and (max-width: 767px) {
+  .client {
+    width: 50%;
+  }
+}
 
 
 
