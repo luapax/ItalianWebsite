@@ -8,6 +8,8 @@
 	<link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="css/fixed.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
@@ -29,7 +31,7 @@
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item"><a href="#home" class="nav-link">STRONA GŁÓWNA</a></li>
 					<li class="nav-item"><a href="#history" class="nav-link">HISTORIA</a></li>
-					<li class="nav-item"><a href="#features" class="nav-link">POLECANE KIERUNKI</a></li>
+					<li class="nav-item"><a href="#trip" class="nav-link">POLECANE KIERUNKI</a></li>
 					<li class="nav-item"><a href="#resources" class="nav-link">KUCHNIA</a></li>
 					<li class="nav-item"><a href="#clients" class="nav-link">O TWÓRCACH</a></li>
 					<li class="nav-item"><a href="#contact" class="nav-link">KONTAKT</a></li>
@@ -60,11 +62,12 @@
 				strony</a>
 		</div>
 	</div>
+	<hr class="jumbo-line" />
 	<!-- end HISTORY -->
 
 	<!-- start TRIP -->
 
-	<div id="features">
+	<div id="trip">
 		<div class="jumbotron text-center">
 
 			<h3>Polecane kierunki:</h3>
@@ -86,6 +89,7 @@
 								</p>
 							</blockquote>
 						</div>
+
 					</div>
 
 					<div class="carousel-item">
@@ -126,30 +130,25 @@
 				</div>
 			</div>
 
-
-
-
-
-
-			<hr class="line" />
 			<a href="https://www.skyscanner.net/transport/flights/pl/it/220928/221005/?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&inboundaltsenabled=false&infants=0&originentityid=29475260&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
 				class="btn btn-success btn-lg" role="button">Chcę tam pojechać!</a>
 		</div>
 	</div>
+	<hr class="jumbo-line" />
 	<!-- end TRIP -->
 
-	<!-- start RESOURCES -->
-	<div id="resources">
+	<!-- start KITCHEN -->
+	<div id="kitchen">
 		<div class="jumbotron">
 			<div class="narrow">
 				<div class="heading text-center">
-					<h3>Zobacz nasze zasoby:</h3>
+					<h3>Zobacz nasze przepisy:</h3>
 				</div>
 				<div class="row text-center">
 					<div class="col-md-4">
-						<div class="resource">
-							<i class="fab fa-js-square fa-5x"></i>
-							<h2>Javascript</h2>
+						<div class="kitchen">
+							<img src="img/pizza.png" alt="">
+							<h2>Pizza</h2>
 							<p>
 								Lorem ipsum dolor sit amet consectetur adipisicing elit. In
 								optio porro, deleniti voluptates dicta libero accusamus
@@ -159,9 +158,9 @@
 						</div>
 					</div>
 					<div class="col-md-4">
-						<div class="resource">
-							<i class="fas fa-terminal fa-5x"></i>
-							<h2>Terminal</h2>
+						<div class="kitchen">
+							<img src="img/pasta.png" alt="">
+							<h2>Spaghetti</h2>
 							<p>
 								Lorem ipsum dolor sit amet consectetur adipisicing elit. In
 								optio porro, deleniti voluptates dicta libero accusamus
@@ -171,9 +170,9 @@
 						</div>
 					</div>
 					<div class="col-md-4">
-						<div class="resource">
-							<i class="fab fa-btc fa-5x"></i>
-							<h2>Krypto</h2>
+						<div class="kitchen">
+							<img src="img/drink.png" alt="">
+							<h2>Aperol</h2>
 							<p>
 								Lorem ipsum dolor sit amet consectetur adipisicing elit. In
 								optio porro, deleniti voluptates dicta libero accusamus
@@ -186,19 +185,20 @@
 			</div>
 		</div>
 	</div>
-	<!-- end RESOURCES  -->
+	<hr class="jumbo-line" />
+	<!-- end KITCHEN  -->
 
-	<!-- start CLIENTS -->
-	<div id="clients">
+	<!-- start AUTHORS -->
+	<div id="authors">
 		<div class="jumbotron">
 			<div class="heading text-center col-12">
-				<h3>Opinie naszych klientów</h3>
+				<h3>Włoscy pasjonaci i twórcy strony<h3>
 			</div>
 			<div class="row text-center">
 				<div class="col-md-6">
 					<div class="row">
 						<div class="col-lg-4">
-							<img class="client" src="img/client2.png" alt="client2" />
+							<img class="authors" src="img/zuza.jpg" alt="client2" />
 						</div>
 						<div class="col-lg-8">
 							<blockquote class="blockquote text-center">
@@ -211,7 +211,7 @@
 							</blockquote>
 							<hr class="jumbo-line" />
 							<footer class="blockquote-footer">
-								<cite>Joanna z Warszawy</cite>
+								<cite>Zuzia z Poznania</cite>
 							</footer>
 						</div>
 					</div>
@@ -219,7 +219,7 @@
 				<div class="col-md-6">
 					<div class="row">
 						<div class="col-lg-4">
-							<img class="client" src="img/client1.png" alt="client1" />
+							<img class="authors" src="img/arek.jpg" alt="client1" />
 						</div>
 						<div class="col-lg-8">
 							<blockquote class="blockquote text-center">
@@ -232,7 +232,7 @@
 							</blockquote>
 							<hr class="jumbo-line" />
 							<footer class="blockquote-footer">
-								<cite>Ziemowit z Wrocławia</cite>
+								<cite>Arek z Torunia</cite>
 							</footer>
 						</div>
 					</div>
@@ -240,7 +240,8 @@
 			</div>
 		</div>
 	</div>
-	<!-- end CLIENTS -->
+	<hr class="jumbo-line" />
+	<!-- end AUTHORS -->
 
 	<!-- start footer -->
 	<footer id="contact">

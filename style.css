@@ -54,13 +54,9 @@
 .jumbotron {
   color: black;
   margin-bottom: 0;
-  padding-bottom: 0;
+  padding-bottom: 2rem;
 }
 
-.features-list {
-  list-style: none;
-  padding-left: 0;
-}
 
 /* trip */
 
@@ -82,14 +78,25 @@
 }
 
 
-/* resources */
-.resource p {
+/* kitchen */
+
+
+#kitchen .jumbotron {
+  background-color: rgb(248, 248, 223);
+}
+
+.kitchen p {
   font-size: 0.9rem;
 }
 
-/* clients */
+.kitchen img {
+  height: 8rem;
 
-.client {
+}
+
+/* authors */
+
+.authors {
   width: 80%;
   border-radius: 50%;
   min-width: 15vw;
@@ -97,6 +104,10 @@
 }
 
 /* footer */
+#contact .jumbotron {
+  background-color: rgb(248, 248, 223);
+}
+
 footer,
 footer a {
   color: grey;
