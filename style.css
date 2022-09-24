@@ -1,14 +1,15 @@
 /* navigation */
 
 .navbar {
-  background-color: black;
+  background-color: rgba(245, 245, 245, 0.6);
   font-size: 0.9rem;
   letter-spacing: 0.1rem;
   font-weight: bold;
 }
 
 .navbar img {
-  height: 1.8rem;
+  padding-left: 0.5rem;
+  height: 2.5rem;
 }
 
 .navbar .navbar-nav li {
@@ -16,12 +17,13 @@
 }
 
 .navbar .navbar-nav .nav-link:hover {
-  color: greenyellow
+  color: rgb(35, 179, 35);
 }
+
 
 /* landing */
 .home-inner {
-  background-image: url(img/computers.png);
+  background-image: url(img/amalfi-italy.jpeg);
   background-size: contain;
 }
 
@@ -33,33 +35,68 @@
   z-index: 1;
 }
 
-
-/* course */
-
-#course {
-  background-color: lightgrey;
+.caption h1 {
+  text-shadow: 0 0 0.2em black;
 }
 
-/* features */
+
+/* histroy */
+#history div {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#history {
+  background-color: rgb(248, 248, 223);
+}
+
+/* trip */
 .jumbotron {
   color: black;
   margin-bottom: 0;
-  padding-bottom: 0;
+  padding-bottom: 2rem;
 }
 
-.features-list {
-  list-style: none;
-  padding-left: 0;
+
+/* trip */
+
+.tourist {
+  width: 50%;
+  border-radius: 20%;
+  min-width: 15vw;
+  /* viewport width */
+  max-width: 500px;
 }
 
-/* resources */
-.resource p {
+.blockquote {
+  width: 50%;
+  margin: 20px auto;
+}
+
+.blockquote p {
+  margin: 0 auto;
+}
+
+
+/* kitchen */
+
+
+#kitchen .jumbotron {
+  background-color: rgb(248, 248, 223);
+}
+
+.kitchen p {
   font-size: 0.9rem;
 }
 
-/* clients */
+.kitchen img {
+  height: 8rem;
 
-.client {
+}
+
+/* authors */
+
+.authors {
   width: 80%;
   border-radius: 50%;
   min-width: 15vw;
@@ -67,6 +104,10 @@
 }
 
 /* footer */
+#contact .jumbotron {
+  background-color: rgb(248, 248, 223);
+}
+
 footer,
 footer a {
   color: grey;
